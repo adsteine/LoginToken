@@ -13,4 +13,9 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="background_main">
+    <style name="ActionBar.Overlay" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse" />
+    <item name="android:actionBarStyle">ActionBar.Overlay</item>
+    <item name="android:windowActionBarOverlay">true</item>
+</style>
 </resources>
